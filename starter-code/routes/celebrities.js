@@ -33,6 +33,10 @@ router.get('/:id', (req, res, next) => {
   });
 });
 
+router.get('/:id/edit', (req, res, next) => {
+
+});
+
 router.post('/', (req, res, next) => {
   const celebrityInfo = {
     name: req.body.name,
