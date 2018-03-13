@@ -39,7 +39,7 @@ app.use(express.static('public'));
 
 app.use(expressLayouts);
 app.set('layout', 'layouts/main-layout');
-app.set('views', __dirname.join('/views'));
+app.set('views', path.join(__dirname, '/views'));
 
 // -- 404 and error handler
 
